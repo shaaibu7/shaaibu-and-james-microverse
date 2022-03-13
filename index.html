@@ -15,28 +15,30 @@
        <p id="description" >
         Thank you for taking the time to help us improve the platform
        </p>
-       <div id="nav-div">
-      <label id="name-label" for="name">Name </label><input type="text" id="name" placeholder="enter your name" required>
-    </div>
-       <div id="nav-div">
-      <label id="email-label" for="email">Email</label>
-      <input type="email" id="email" placeholder="enter your email" required>
-    </div>
-      <div id="nav-div">
-      <label id="number-label" for="number">Number</label>
-      <input type="number" min="10"  max="100" id="number" placeholder="number">
-     </div>
-      <div id="dropdown-label">
-      <label for="dropdown" >Will you recommend freecodecamp for a friend</label>
-    </div>
-    <div id="select-drop">
-      <select id="dropdown">
-        <option value="definitely">definitely</option>
-        <option value="maybe">maybe</option>
-        <option value="not sure">not sure</option>
+       <div class="container">
+         <div id="nav-div">
+            <label id="name-label" for="name">Name </label><input type="text" id="name" placeholder="enter your name" required>
+          </div>
+          <div id="nav-div">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email" required>
+          </div>
+          <div id="nav-div">
+            <label id="number-label" for="number">Age(optional)</label>
+            <input type="number" min="10"  max="100" id="number" placeholder="number">
+          </div>
+          <div id="dropdown-label">
+            <label for="dropdown" >Will you recommend freecodecamp for a friend</label>
+          </div>
+          <div id="select-drop">
+            <select id="dropdown">
+              <option value="definitely">definitely</option>
+              <option value="maybe">maybe</option>
+            <option value="not sure">not sure</option>
          
-      </select>
-    </div>
+            </select>
+          </div>
+        </div>
     <div id="labelsss">
       <label id="label1">What is your occupation</label>
       </div>
@@ -58,34 +60,50 @@
       <input type="radio" name="Radio" value="Others" id="4">Others
       </label>
      </div>
-     <div id="checkbox">
-      <label>How did you hear about us.</label>
-    
-      
-        <label for="a">
-          <input type="checkbox" id="a" value="frontend project">From a friend
-        </label>
 
+     <div id="checkbox">
+       <div>
+      <label>How did you hear about us.</label>
+    </div>
+       <div>
+          <label for="a">
+          <input type="checkbox" id="a" value="frontend project">From a friend
+          </label>
+        </div>
+        <div>
         <label for="b">
           <input type="checkbox" id="b" value="backend project">Facebook
         </label>
-
+      </div>
+      <div>
         <label for="c">
           <input type="checkbox" id="c" value="data visualization">Twitter
         </label>
+      </div>
+      <div>
 
         <label for="d">
           <input type="checkbox" id="d" value="challenges">Flier
         </label>
+      </div>
+    <div>
 
         <label for="e">
           <input type="checkbox" id="e" value="opensource community">Others
         </label>
       </div>
-      <div id="fotter">
+      </div>
+
+      <div id="footer">
+        <div>
       <label for="">Any Suggestions</label>
-      <textarea placeholder="Give us your Suggestions"  id="textArea" ></textarea>
+        </div>
+        <div>
+      <textarea placeholder="Give us your Suggestions"  id="textArea" cols="40" rows="9" ></textarea>
+    </div>
+    <div>
       <button id="submit" >Submit</button>
+    </div>
     </div>
         
     </form>

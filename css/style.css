@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+body
+{
+   
+    background-color:blue;
+}
+#title
+{
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#description{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#survey-form
+{
+    background-color:#033054;
+    margin: auto;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    
+}
+input{
+    background-color: aliceblue;
+    margin-top: 22px;
+}
+.container
+
+{
+    padding:10px 10px 10px 10px;
+    margin-left: 20px;
+
+}
+
+#survey-form >label{
+    justify-content: start;
+    text-align: right;
+}
+#checkbox
+
+{   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#footer
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#submit
+{
+    width: 100px;
+    background-color: green;
+}
+#dropdown-label
+{
+    margin-top: 20px;
+}
